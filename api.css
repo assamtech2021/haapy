@@ -1,0 +1,41 @@
+#h1{
+    color: red;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+#h5{
+    color: blueviolet;
+    text-align: center;
+    margin: 5px;
+}
+
+
+body{
+    background-color: aqua;
+    font-family: 'Oswald', sans-serif;
+}
+
+.maindiv{
+    text-align: center;
+}
+
+.imgdiv{
+    align-items: center; 
+    justify-content: center; 
+  
+}
+img{
+    
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+button {background-color: #4CAF50;
+    cursor: pointer;
+} 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="api.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+
+    <h1 id="h1">See this</h1>
+
+    <div class="maindiv">
+       
+       
+        <button>Click Me</button>
+    </div>
+    <div class="imgdiv">
+        <img id="img" src="" alt="" class="imgchange">
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>s
+
+    <script>
+        $(document).ready(function(){
+         $('button').click(function(){
+          const name = $('#nameid').val();
+        //   alert(name);
+          $('.imgchange').attr('src',`happy-birthday.gif`);
+          const b = $('.imgchange');
+          console.log(b);
+       
+         });
+        });
+       </script>
+
+       <footer style="text-align: center;">Develope By Cocktailwings</footer>
+    
+
+</section>
+    
+</body>
+</html>
